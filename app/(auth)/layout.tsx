@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <div className="relative w-100">
         <div className="absolute inset-0 rounded-2xl bg-red-300 translate-x-3 translate-y-3"></div>
-        <div className="relative z-10 bg-white rounded-2xl">
+        <div className="relative z-10 bg-white rounded-full">
           {children}
         </div>
       </div>
