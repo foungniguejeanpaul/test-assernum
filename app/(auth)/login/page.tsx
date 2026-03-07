@@ -40,7 +40,7 @@ const LoginPage = () => {
           </div>
           </div>
           <div className="flex justify-center">
-            <Button type="submit" className="w-4/5 rounded-2xl font-bold text-xl bg-red-500">
+            <Button type="submit" className="w-4/5 rounded-full font-bold text-xl bg-red-500 h-12">
               Se connecter
             </Button>
           </div>
