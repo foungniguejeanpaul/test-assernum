@@ -1,9 +1,9 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -31,12 +31,12 @@ const LoginPage = () => {
               <Label htmlFor="password">Password</Label>
             </div>
             <Input id="password" type="password" required className="h-12 px-3" />
-            <a
-                href="#"
+            <Link
+                href="/forgot-password"
                 className="text-sm underline-offset-4 hover:underline text-red-500 text-right"
               >
                 Mot de passe oublié
-              </a>
+              </Link>
           </div>
           </div>
           <div className="flex justify-center">
