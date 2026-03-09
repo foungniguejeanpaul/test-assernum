@@ -3,7 +3,7 @@ export const APP_CONFIG = {
   description:
     "",
   nav: [
-    { label: "Tableau de bord", href: "/" },
+    { label: "Tableau de bord", href: "/dashboard" },
     { label: "Magasins", href: "/magasins" },
     { label: "Trasactions", href: "/transactions" },
     { label: "Clients", href: "/clients" },
